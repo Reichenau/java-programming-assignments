@@ -1,3 +1,8 @@
+/*
+Типы данных и операторы -> Базовые типы данных и литералы -> Практика 2
+Практика #2
+Напечатайте в консоли свое имя, используя при этом символы в формате Unicode ('\uXXXX').
+*/
 package types_and_operators.basic_types_and_literals.practice02;
 
 public class Main {
