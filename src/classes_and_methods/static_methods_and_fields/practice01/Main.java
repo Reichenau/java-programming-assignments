@@ -40,6 +40,6 @@ public class Main {
         // ---Через null ---
         System.out.println("\n--- Через переменную с null ---");
         A emptyRef = null;
-        emptyRef.printVars(); 
+        emptyRef.printVars();
     }
 }
