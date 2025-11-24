@@ -13,11 +13,11 @@ public class Main {
             System.out.println("Бесконечный while");
         }
 
+        // ЧТобы заработало, нужно раскомментировать
         // --- do-while ---
-        do {
-            System.out.println("Бесконечный do-while");
-        } while (true);
+//        do {
+//            System.out.println("Бесконечный do-while");
+//        } while (true);
 
-        // ЧТобы заработало, нужно один из циклов закомментировать
     }
 }
