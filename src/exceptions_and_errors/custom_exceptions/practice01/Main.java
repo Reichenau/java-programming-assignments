@@ -17,7 +17,7 @@ class MyFirstException extends Exception {
         super(message);
     }
 
-    // 3. Конструктор с сообщением и причиной (другим исключением)
+    // 3. Конструктор с сообщением и причиной
     public MyFirstException(String message, Throwable cause) {
         super(message, cause);
     }
@@ -36,7 +36,6 @@ public class Main {
 
     public static void checkAge(int age) throws MyFirstException {
         if (age < 0) {
-            // Используем второй конструктор (с сообщением)
             throw new MyFirstException("Возраст не может быть отрицательным");
         }
         System.out.println("Возраст принят: " + age);
